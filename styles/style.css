@@ -7,4 +7,51 @@
   --------*/
   body{
     font-family: 'Poppins', sans-serif;
+    background-color: #ece4e4;
   }
+  .container{
+    background: #161616;
+    height: 646px;
+    border-radius: 30px;
+    margin: 0px 10px 130px;
+      
+  }
+  /*--------
+   first section styles
+   ---------- */
+   .first-sections{
+    display: flex;   
+    margin-left: 106px;
+    /* justify-content: center;*/
+    align-items: center; 
+   }
+   .first-article{
+    width: 531px;
+    height: 424px;
+    color: #FFFFFF;
+    margin-top: 111px;
+    margin-right: 24px;
+   }
+   .section-title{
+    color: #FFFFFF;
+    font-size: 40px;
+   }
+   .first-picture img{
+    width: 581px;
+    height: 613px;
+   }
+   .first-switch{
+    background: #DD0000;
+    padding: 10px;
+    color: #FFFFFF;
+    border-radius: 10px;
+   }
+   .first-switch:hover{
+    background-image: linear-gradient(aqua,gray);
+    font-size: 20px;
+    font-weight: 700;
+   }
+   .header-text{
+    font-size: 16px;
+   }
+ 
