@@ -13,7 +13,7 @@
     background: #161616;
     height: 646px;
     border-radius: 30px;
-    margin: 0px 10px 130px;
+    margin: 0px 50px 130px 50px;
       
   }
   /*--------
@@ -26,7 +26,7 @@
     align-items: center; 
    }
    .first-article{
-    width: 531px;
+    width: 520px;
     height: 424px;
     color: #FFFFFF;
     margin-top: 111px;
@@ -35,6 +35,7 @@
    .section-title{
     color: #FFFFFF;
     font-size: 40px;
+    width: 60%;
    }
    .first-picture img{
     width: 581px;
@@ -54,4 +55,105 @@
    .header-text{
     font-size: 16px;
    }
- 
+  /*----------
+   last section styles
+   ----------- */
+/*-------
+ button section styles
+ --------- */
+ .buttons-section{
+  background-color: black;
+  width: 312px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+ }
+ .buttons-section button{
+  padding: 17px 39px;
+  margin: 30px;
+  width: 250px;
+  height: 60px;
+  border-radius: 10px;
+ }
+ .last-switch{
+  background-color: #DD0000;
+  color: #ece4e4;
+ }
+
+ /*----------
+  players carts styles
+  ----------- */
+  .players-carts{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 24px;
+  }
+  .player-cart{
+    width: 312px;
+    height: 362px;
+    margin-left: 24px;
+    box-shadow: 0px 4px 13px gray;
+    border-radius: 10px;
+  }
+  .player-banner img{
+    width: 312px;
+    height: 175px;
+  }
+  .cart-content{
+    display: flex;
+    margin-bottom: 130px;
+  }
+  .cart-info{
+    padding: 20px;
+  }
+  /*----------
+   footer section styles
+   ----------- */
+   .down-title{
+    color: #FFFFFF;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 130px;
+    margin-bottom: 60px; 
+   }
+   .down-area{
+    width: 1600px;
+    height: 444px;
+    background: #161616;
+   }
+   hr{
+    width: 1320px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+   
+   }
+   hr:hover{
+   background-color: #DD0000;
+   }
+   .navigation-menu li{
+    color: #ece4e4;
+   }
+   .navigation-menu li:hover{
+    background-color:aqua;
+    color: #161616;
+   }
+   .navigation-menu ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+   }
+   .navigation-menu ul{
+    list-style: none;
+   }
+   .social-icon {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-decoration: none;
+   }
+   .social-icon a:hover{
+    background-color: azure;
+    font-size: 30px;
+    color: #161616;
+    border-radius: 10px;
+   }
