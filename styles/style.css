@@ -79,6 +79,7 @@
       .first-sections .first-article{
         width: 90%;
         height: 50%;
+        margin-bottom: 20px;
        }
       .cart-content{
         flex-direction: column;
