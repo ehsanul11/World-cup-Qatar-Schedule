@@ -39,6 +39,12 @@
       margin-top: 0px;
       font-size: 10px;
     } */
+    .first-sections{
+      display: flex;
+      flex-direction: column;
+      
+    }
+  
     .cart-content{
       flex-direction: column;
       align-items: center;
@@ -115,6 +121,7 @@
   /*--------
    first section styles
    ---------- */
+
    .first-sections{
     display: flex;   
     margin-left: 106px;
@@ -131,6 +138,7 @@
     color: #FFFFFF;
     /* margin-top: 111px; */
     margin-right: 24px;
+   
    }
    .first-article{
     width: 100%;
@@ -161,6 +169,7 @@
    }
    .header-text{
     font-size: 16px;
+    width: 60%;
    }
   /*----------
    last section styles
@@ -179,6 +188,9 @@
  }
  .buttons-section{
   width: 100%;
+ }
+ .last-switch{
+  background-color: #DD0000;
  }
 
  .buttons-section button{
