@@ -8,6 +8,10 @@
   body{
     font-family: 'Poppins', sans-serif;
     background-color: #ece4e4;
+    margin: 0;
+  }
+  main{
+    width: 100%;
   }
   .container{
     background: #161616;
